@@ -1,0 +1,479 @@
+.bootstrap-datetimepicker-widget{
+    width: 220px !important;
+}
+
+@media (max-width: 415px){
+    .footer-nic-logo{
+        margin-top: -26px !important;
+    }
+    .footer-nic-logo-image{
+        height: 31px !important;
+    }
+}
+
+.color-black {
+    color: #212529;
+}
+
+.bg-nic-blue {
+    background-color: #0E4D92;
+    color: white;
+}
+
+.bg-nic-gray {
+    background-color: #808080;
+    color: white;
+}
+
+.color-nic-blue {
+    color: #0E4D92;
+}
+
+.error-message{
+    color: red;
+}
+
+.f-w-b{
+    font-weight: bold;
+}
+
+.btn-nic-blue {
+    background-color: #0E4D92;
+    border-color: #0E4D92;
+    color: white !important;
+}
+
+.btn-nic-blue:hover,
+.btn-nic-blue:active,
+.btn-nic-blue.hover {
+    background-color: #367fa9;
+    color: white;
+}
+
+.btn-nic-maroon{
+    background-color: #990000;
+    border-color: white;
+    color: white !important;
+}
+
+.btn-nic-maroon:hover,
+.btn-nic-maroon:active,
+.btn-nic-maroon.hover {
+    background-color: #E13300;
+    color: white;
+}
+
+.login-box-msg,
+.register-box-msg {
+    padding: 0 20px 0px;
+}
+
+.swal2-close {
+    padding: 1px !important;
+}
+
+.swal2-popup.swal2-toast.swal2-show {
+    -webkit-animation: swal2-toast-show .5s;
+    animation: swal2-toast-show .5s;
+    padding: 10px 15px 10px 15px;
+}
+
+.brand-link {
+    padding: .5rem;
+    line-height: 2;
+}
+
+.brand-link .brand-image {
+    margin-left: 3px;
+    max-height: 42px;
+}
+
+.p-t-15{
+    padding-top: 15px !important;
+}
+
+.p-tb-10{
+    padding-top: 10px !important;
+    padding-bottom: 10px !important;
+}
+
+.callout {
+    margin-bottom: 0px !important;
+    margin-left: 20px !important;
+    margin-right: 20px !important;
+}
+
+.callout.callout-warning {
+    background-color: #d39e00 !important;
+    color: white;
+}
+
+.callout.callout-success {
+    background-color: #218838 !important;
+    color: white;
+}
+
+.f-w-b{
+    font-weight: bold;
+}
+
+.f-w-n{
+    font-weight: normal !important;
+}
+
+.b-none{
+    border: none !important;
+}
+
+.m-b-1rem{
+    margin-bottom: 1rem !important;
+}
+
+.v-a-m{
+    vertical-align: middle !important;
+}
+
+hr{
+    margin-top: 3px;
+    margin-bottom: 3px;
+}
+
+.table-padding td, .table-padding th {
+    padding: 4px !important;
+}
+
+.gujarati-name{
+    font-size: 12px !important;
+    line-height: 15px !important;
+}
+
+.table td, .table th {
+    vertical-align: middle !important;
+}
+
+.pull-right{
+    float: right;
+}
+
+.spinner-border-small {
+    width: 1rem !important;
+    height: 1rem !important;
+}
+
+.bg-white{
+    background-color: white !important
+}
+
+.bg-active{
+    background-color: #f5f6f7 !important;
+}
+
+.f-s-16px{
+    font-size: 16px !important;
+}
+
+@media only screen and (max-width: 768px) {
+    .mt-33px {
+        margin-top: 0px !important;
+    }
+}
+
+@media (min-width: 992px){
+    .modal-lg, .modal-xl {
+        max-width: 600px;
+    }
+}
+@media (min-width: 992px){
+    .modal-new-lg, .modal-new-xl {
+        max-width: 80%;
+    }
+}
+.bg-light-gray{
+    background-color: rgba(0,0,0,.05) !important;
+}
+
+.bg-light-pink{
+    background-color: rgba(200, 211, 253, 0.8) !important;
+}
+
+.modal-header{
+    padding-top: 8px;
+    padding-bottom: 8px;
+}
+
+body{
+    font-size: 15px;
+}
+
+.btn-sm {
+    padding: 5px 10px;
+    font-size: 15px;
+}
+
+.table td, .table th {
+    padding: 3px;
+}
+.sorting_asc:before, .sorting_desc:after {
+    margin-block-end: -7px;
+}
+.sorting_asc:after,.sorting_desc:before{
+    margin-block-end: -7px;
+}
+table.dataTable thead .sorting:before, table.dataTable thead .sorting_asc:before, table.dataTable thead .sorting_desc:before, table.dataTable thead .sorting_asc_disabled:before, table.dataTable thead .sorting_desc_disabled:before{
+    margin-block-end: -7px;
+}
+table.dataTable thead .sorting:after, table.dataTable thead .sorting_asc:after, table.dataTable thead .sorting_desc:after, table.dataTable thead .sorting_asc_disabled:after, table.dataTable thead .sorting_desc_disabled:after {
+    margin-block-end: -7px;
+}
+
+.card-header, .card-body  {
+    padding: 10px;
+}
+label {
+    margin-bottom: 3px;
+}
+
+.form-control {
+    font-size: 14px;
+}
+
+.form-group{
+    margin-bottom: 10px;
+}
+
+.content-header {
+    padding: 10px;
+}
+
+.content-header .breadcrumb {
+    line-height: 2rem;
+}
+
+.m-b-0, .m-b-0px{
+    margin-bottom: 0px !important;
+}
+
+.card-title {
+    font-size: 20px; 
+    font-weight: bold;
+}
+
+.mb-12{
+    margin-bottom: 12px;
+}
+.l-h-1-1{
+    line-height: 1.1 !important;
+}
+
+.mb3px{
+    margin-bottom: 3px !important;
+}
+
+.app-status{
+    padding: 5px !important;
+    font-size: 13px !important;
+}
+
+.swal2-confirm{
+    margin-right: 5px;
+}
+
+.m-r-10px{
+    margin-right: 10px;
+}
+
+.m-b-5px{
+    margin-bottom: 5px !important;
+}
+
+.f-s-20px{
+    font-size: 20px !important;
+}
+
+.color-nic-gray{
+    color: #808080 !important;
+}
+.color-nic-white{
+    color: white !important;
+}
+.color-nic-orange{
+    color: #ff7701 !important;
+}
+
+.content-wrapper>.content {
+    padding: .5rem;
+}
+
+.layout-footer-fixed .wrapper .main-footer {
+    bottom: -10px;
+}
+@media (max-width: 415px){
+    .layout-footer-fixed .wrapper .main-footer {
+        padding-top: 10px;
+    }
+}
+div.dt-buttons {
+    width: 60px !important;
+}
+
+.fs-login-title{
+    font-size: 25px !important;
+}
+
+@media screen and (min-width: 768px) and (max-width: 992px){
+    .fs-login-title{
+        font-size: 20px !important;
+    }
+}
+@media screen and (max-width: 767px){
+    div.dataTables_filter {
+        text-align: right !important;
+    }
+    div.dataTables_info{
+        text-align: left !important;
+    }
+    .fs-login-title{
+        font-size: 18px !important;
+    }
+}
+
+.p-b-0px{
+    padding-bottom: 0px !important;
+}
+.table-bold-data{
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.m-r-35px {
+    margin-right: 35px;
+}
+
+.color-nic-black{
+    color: black !important;
+}
+
+.color-nic-red{
+    color: red !important;
+}
+
+.color-nic-yellow{
+    color: yellow !important;
+}
+
+.color-nic-yellowgreen{
+    color: yellowgreen !important;
+}
+
+.color-nic-maroon{
+    color: maroon !important;
+}
+.color-nic-pink{
+    color: pink !important;
+}
+.color-nic-green{
+    color: green !important;
+}
+
+.ui-autocomplete {
+    max-height: 150px;
+    overflow-y: auto;   /* prevent horizontal scrollbar */
+    overflow-x: hidden; /* add padding to account for vertical scrollbar */
+    z-index:1000 !important;
+}
+
+td.details-control {
+    background: url('../images/details_open.png') no-repeat;
+    cursor: pointer;
+}
+
+tr.shown td.details-control {
+    background: url('../images/details_close.png') no-repeat;
+    cursor: pointer;
+}
+
+.bg-honeydew{
+    background: honeydew !important;
+}
+
+.bg-card-dashboard{
+    background-color: #f4f6f9 !important;
+    border: 1px solid #007bff;
+}
+
+.bg-beige{
+    background-color: beige;
+}
+
+#service_datatable tr td{
+    vertical-align: top !important;
+}
+
+.f-s-app-details{
+    font-size: 13px;
+}
+
+.w-30px{
+    min-width: 30px;
+}
+
+.cursor-pointer{
+    cursor: pointer;
+}
+
+.break-word{
+    word-break: break-all;
+}
+
+.overlay-full-page {
+    /* Height & width depends on how you want to reveal the overlay (see JS below) */   
+    height: 100%;
+    width: 0;
+    position: fixed; /* Stay in place */
+    z-index: 9999; /* Sit on top */
+    left: 0;
+    top: 0;
+    background-color: rgb(0,0,0); /* Black fallback color */
+    background-color: rgba(0,0,0, 0.9); /* Black w/opacity */
+    overflow-x: hidden; /* Disable horizontal scroll */
+}
+
+.p-5px {
+    padding: 5px !important;
+}
+
+.table-lh1{
+    line-height: 1 !important;
+}
+
+.table-lh1 td{
+    min-width: 60px;
+}
+
+.f-s-14px{
+    font-size: 14px !important;
+}
+
+.captcha-code {
+    font-size: 21px;
+    letter-spacing: 3px;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    font-weight: bold;
+    background-color: #ffffff;
+    background-image: url(../images/captcha-bg-image.jpeg);
+    color: black !important;
+    border-color: white !important;
+}
+
+.captcha-code-lg {
+    font-size: 22px;
+    letter-spacing: 3px;
+    padding-top: 6px;
+    padding-bottom: 6px;
+    font-weight: bold;
+    background-color: #ffffff;
+    background-image: url(../images/captcha-bg-image.jpeg);
+    color: black !important;
+    border-color: white !important;
+}
