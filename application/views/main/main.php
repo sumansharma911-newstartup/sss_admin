@@ -6,4 +6,6 @@ $this->load->view('main/department_templates');
 $this->load->view('main/users_templates');
 $this->load->view('main/logs_templates');
 $this->load->view('main/service_templates');
+$this->load->view('main/ticket_raise_templates');
+
 ?>

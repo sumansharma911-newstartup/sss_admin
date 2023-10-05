@@ -4,7 +4,7 @@
     <head>
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <title>S.S.S. (SAMAY SUDHINI SEVA) - DNHDD | Log in</title>
+        <title>Ticket Raised System - DNHDD | Log in</title>
         <!-- Tell the browser to be responsive to screen width -->
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <?php $this->load->view('common/css_links', array('base_url' => $base_url)); ?>
@@ -17,7 +17,7 @@
             <nav class="main-header navbar navbar-expand-md navbar-light navbar-white">
                 <div class="container text-center" style="display: inline;">
                     <span class="brand-text font-weight-light fs-login-title" style="font-weight: bold !important;">
-                        S.S.S. (SAMAY SUDHINI SEVA) Admin - DNHDD
+                    Ticket Raised System Admin - DNHDD
                     </span>
                 </div>
             </nav>
@@ -59,9 +59,9 @@
                                                                                     </div>
                                                                                 </div>-->
                                     </form>
-                                    <div class="mt-2">
+                                    <!-- <div class="mt-2">
                                         <a href="<?php echo base_url() ?>registration" class="text-center">Not Registered ? Click here to Register</a>
-                                    </div>
+                                    </div> -->
                                 </div>
                             </div>
                         </div>
@@ -118,7 +118,7 @@
                         validationMessageShow('login', parseData.message);
                         return false;
                     }
-                    window.location = baseUrl + 'main';
+                    window.location = baseUrl + 'main#ticket_raise';
                 }
             });
         }

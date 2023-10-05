@@ -3,6 +3,7 @@
 <script type="text/javascript" src="<?php echo base_url() ?>js/project/users.js?<?php echo VERSION; ?>"></script>
 <script type="text/javascript" src="<?php echo base_url() ?>js/project/logs.js?<?php echo VERSION; ?>"></script>
 <script type="text/javascript" src="<?php echo base_url() ?>js/project/service.js?<?php echo VERSION; ?>"></script>
+<script type="text/javascript" src="<?php echo base_url() ?>js/project/ticket_raise.js?<?php echo VERSION; ?>"></script>
 <script type="text/javascript" >
     $(function () {
         Dashboard.run();
@@ -10,6 +11,7 @@
         Users.run();
         Logs.run();
         Service.run();
+        Ticketraise.run();
         Backbone.history.start();
     });
     var width = parseFloat($(window).width());

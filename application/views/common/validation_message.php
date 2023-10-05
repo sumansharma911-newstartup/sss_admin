@@ -7,6 +7,9 @@
     var noRecordFoundMessage = '<?php echo NO_RECORD_FOUND_MESSAGE; ?>';
     var captchaValidationMessage = '<?php echo CAPTCHA_VALIDATION_MESSAGE; ?>';
     var captchaVerificationValidationMessage = '<?php echo CAPTCHA_VERIFICATION_VALIDATION_MESSAGE; ?>';
+    var selectEmployeeTypeValidationMessage = '<?php echo SELECT_Employee_TYPE_MESSAGE; ?>';
+    var remarkValidationMessage = '<?php echo REMARK_SUBMITTED_MESSAGE; ?>';    
+
 
     // Login Messages
     var usernameRegex = <?php echo USERNAME_REGEX ?>;

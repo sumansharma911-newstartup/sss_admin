@@ -27,6 +27,10 @@ define("ENCRYPTION_KEY", "!@#$%^&*");
 define('USERNAME_REGEX', '/^[a-z0-9-.]+$/');
 define('PASSWORD_REGEX', '/^(?=.*\d)(?=.*[A-Z])(?=.*[a-z])(?=.*[!#$@%_+\-=<>]).{8,16}$/');
 
+define('PROJECT_PATH', 'http://localhost:90/ticketsystem/');
+define('DOC_PATH', PROJECT_PATH . 'documents/');
+define('TICKETRAISE_DOC_PATH', DOC_PATH . 'ticketraise/');
+
 
 define('API_ENCRYPTION_KEY', 'sgAD#@$@^^&fAB%^*(*&&^%$');
 define('API_ACCESS_KEY', '%#d@AE$#Idgqw$$^jhhh');
@@ -112,3 +116,22 @@ $config['app_napp_array'] = array(
     VALUE_ONE => 'Applicable',
     VALUE_TWO => 'Not Applicable'
 );
+
+$config['app_status_array'] = array(
+
+    VALUE_ZERO => '<span class="badge bg-nic-blue app-status">Incomplete</span>',
+    VALUE_ONE => '<span class="badge bg-warning app-status">Pending</span>',
+    VALUE_TWO => '<span class="badge bg-orange app-status">Processing</span>',
+    VALUE_THREE => '<span class="badge bg-success app-status">Complete</span>',
+    VALUE_FOUR => '<span class="badge bg-danger app-status">Rejected</span>',
+);
+
+// define('FORWARD_TO_USER', 1);
+// define('FORWARD_TO_EMPLOYEE', 2);
+// define('REJECTED', 3);
+// $config['reply_employee_user_array'] = array(
+//     FORWARD_TO_USER => 'Forward to User',
+//     FORWARD_TO_EMPLOYEE => 'Forward to Employee',
+//     REJECTED => 'Rejected'
+// );
+

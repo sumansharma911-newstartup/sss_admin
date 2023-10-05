@@ -311,6 +311,7 @@ class Users extends CI_Controller {
         $change_password_data = $this->_get_post_data_for_change_password();
         $this->db->trans_start();
         $user_data = $this->user_model->get_user_by_id($user_id);
+        print_r($user_data);
         if (empty($user_data)) {
             echo json_encode(get_error_array(INVALID_USER_MESSAGE));
             return false;

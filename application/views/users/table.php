@@ -10,8 +10,8 @@
                 <thead>
                     <tr class="bg-light-gray">
                         <th class="text-center" style="width: 20px;">No.</th>
-                        <th class="text-center" style="width: 70px;">District</th>
-                        <th class="text-center" style="min-width: 160px;">Department Name</th>
+                        <!-- <th class="text-center" style="width: 70px;">District</th>
+                        <th class="text-center" style="min-width: 160px;">Department Name</th> -->
                         <th class="text-center" style="min-width: 125px;">Mobile Number</th>
                         <th class="text-center" style="min-width: 125px;">Email</th>
                         <th class="text-center" style="min-width: 200px;">Name</th>

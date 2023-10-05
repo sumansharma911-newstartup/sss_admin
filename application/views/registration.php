@@ -4,7 +4,7 @@
     <head>
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <title>S.S.S. (SAMAY SUDHINI SEVA) - DNHDD | Registration</title>
+        <title>TICKET RAISED SYSTEM - DNHDD | Registration</title>
         <!-- Tell the browser to be responsive to screen width -->
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <?php
@@ -22,7 +22,7 @@
             <nav class="main-header navbar navbar-expand-md navbar-light navbar-white">
                 <div class="container text-center" style="display: inline;">
                     <span class="brand-text font-weight-light fs-login-title" style="font-weight: bold !important;">
-                        S.S.S. (SAMAY SUDHINI SEVA) Admin - DNHDD
+                        TICKET RAISED SYSTEM Admin - DNHDD
                     </span>
                 </div>
             </nav>

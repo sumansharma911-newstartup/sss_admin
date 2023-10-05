@@ -5,7 +5,7 @@
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <meta http-equiv="x-ua-compatible" content="ie=edge">
-        <title>sss_admin</title>
+        <title>Ticket_Raise</title>
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <?php $this->load->view('common/css_links', array('base_url' => $base_url, 'is_login' => true)); ?>
         <link rel="stylesheet" href="<?php echo $base_url; ?>plugins/datetimepicker/bootstrap-datetimepicker.css">
@@ -36,6 +36,8 @@
             var iconSpinnerTemplate = spinnerTemplate({'type': 'light', 'extra_class': 'spinner-border-small'});
             var IS_DEACTIVE = <?php echo IS_DEACTIVE ?>;
             var defaultPassword = '<?php echo DEFAULT_PASSWORD ?>';
+            var TICKETRAISE_DOC_PATH = '<?php echo TICKETRAISE_DOC_PATH; ?>';
+
 
             var talukaArray = <?php echo json_encode($this->config->item('taluka_array')); ?>;
             var TEMP_TYPE_A = <?php echo TEMP_TYPE_A; ?>;
@@ -67,6 +69,10 @@
             var drTypeArray = <?php echo json_encode($this->config->item('dr_type_array')); ?>;
             var paymentTypeArray = <?php echo json_encode($this->config->item('payment_type_array')); ?>;
             var appNappArray = <?php echo json_encode($this->config->item('app_napp_array')); ?>;
+            var appStatusArray = <?php echo json_encode($this->config->item('app_status_array')); ?>;
+           // var replyemployeeuserArray = <?php echo json_encode($this->config->item('reply_employee_user_array')); ?>;
+
+
 
 //            $(document).ready(function () {
 //                getCommonData();

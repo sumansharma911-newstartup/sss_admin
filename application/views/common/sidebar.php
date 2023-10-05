@@ -5,20 +5,28 @@
     <div class="sidebar">
         <nav class="mt-2">
             <ul class="nav nav-pills nav-sidebar flex-column" data-widget="treeview" role="menu" data-accordion="false">
-<!--                <li class="nav-item">
+              <!-- <li class="nav-item">
                     <a id="menu_dashboard" href="Javascript:void(0);" class="nav-link menu-close-click"
                        onclick="Dashboard.listview.listPage();">
                         <i class="nav-icon fa fa-tachometer-alt"></i>
                         <p>Dashboard</p>
                     </a>
-                </li>-->
+                </li>
                 <li class="nav-item">
                     <a id="menu_service" href="Javascript:void(0);" class="nav-link menu-close-click"
                        onclick="Service.listview.listPage();">
                         <i class="nav-icon fa fa-cogs"></i>
-                        <p>Services Details</p>
+                        <p>Service</p>
+                    </a>
+                </li> -->
+                <li class="nav-item">
+                    <a id="menu_ticket_raise" href="Javascript:void(0);" class="nav-link menu-close-click"
+                       onclick="Ticketraise.listview.listPage();">
+                        <i class="nav-icon fa fa-cogs"></i>
+                        <p>Ticket Raised List</p>
                     </a>
                 </li>
+
                 <?php if (is_admin()) { ?>
                     <li class="nav-item has-treeview">
                         <a id="menu_users" href="Javascript:void(0)" class="nav-link">

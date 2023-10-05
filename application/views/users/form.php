@@ -76,7 +76,7 @@
                             </select>
                         </div>
                     </div>
-                    <div class="row">
+                    <!-- <div class="row">
                         <div class="form-group col-sm-6">
                             <label>District</label>
                             <select id="district_for_users" name="district_for_users" class="form-control select2"
@@ -92,7 +92,7 @@
                             </select>
                             <span class="error-message error-message-users-department_id_for_users"></span>
                         </div>
-                    </div>
+                    </div> -->
                     <div class="form-group">
                         <button type="button" id="submit_btn_for_users" class="btn btn-sm btn-success" onclick="Users.listview.submitUsers($(this));" style="margin-right: 5px;">Submit</button>
                         <button type="button" class="btn btn-sm btn-danger" onclick="Users.listview.loadUsersData();">Close</button>

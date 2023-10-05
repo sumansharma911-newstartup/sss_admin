@@ -28,6 +28,14 @@ define('PASSWORD_POLICY_MESSAGE', 'Password is not as per password policy !');
 define('NO_RECORD_FOUND_MESSAGE', 'No Record Found..!');
 define('CAPTCHA_VALIDATION_MESSAGE', 'Enter Answer of Above Calculation !');
 define('CAPTCHA_VERIFICATION_VALIDATION_MESSAGE', 'Enter Correct Calculation !');
+define('SELECT_Employee_TYPE_MESSAGE', 'Select Employee Name !');
+define('ASSIGNEDUSER_SUBMITTED_MESSAGE', 'Task Assign Successfully !');
+define('REMARK_SUBMITTED_MESSAGE', 'Enter Remark !');
+define('QUERYDONE_SUBMITTED_MESSAGE', 'Employee Query Solve !');
+define('QUERYREJECT_SUBMITTED_MESSAGE', 'Query Rejected !');
+define('EMPLOYEE_REMOVE', 'Employee Remove successfully !');
+
+
 
 //Login
 define('INVALID_USERNAME_OR_PASSWORD_MESSAGE', 'Username or Password is Invalid !');

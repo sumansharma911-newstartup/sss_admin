@@ -80,8 +80,8 @@ Users.listView = Backbone.View.extend({
             language: dataTableProcessingAndNoDataMsg,
             columns: [
                 {data: '', 'render': serialNumberRenderer, 'class': 'text-center'},
-                {data: 'district', 'class': 'text-center', 'render': districtRenderer, 'orderable': false},
-                {data: 'department_name'},
+                // {data: 'district', 'class': 'text-center', 'render': districtRenderer, 'orderable': false},
+                // {data: 'department_name'},
                 {data: 'mobile_number', 'class': 'text-center'},
                 {data: 'email', 'class': 'text-center'},
                 {data: 'name'},
@@ -233,6 +233,10 @@ Users.listView = Backbone.View.extend({
         if (!usersData.name_for_users) {
             return getBasicMessageAndFieldJSONArray('name_for_users', nameValidationMessage);
         }
+        var mobileNumberValidationMessage = mobileNumberValidation(usersData.mobile_number_for_users);
+                if (mobileNumberValidationMessage != '') {
+                    return getBasicMessageAndFieldJSONArray('mobile_number_for_users', invalidMobileValidationMessage);
+                }
         if (!usersData.username_for_users) {
             return getBasicMessageAndFieldJSONArray('username_for_users', usernameValidationMessage);
         }
@@ -246,6 +250,7 @@ Users.listView = Backbone.View.extend({
         if (!usersData.user_type_for_users) {
             return getBasicMessageAndFieldJSONArray('user_type_for_users', selectUserTypeValidationMessage);
         }
+
         return '';
     },
     submitUsers: function (btnObj) {
